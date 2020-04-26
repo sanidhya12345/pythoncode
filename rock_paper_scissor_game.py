@@ -1,12 +1,11 @@
 player1=input()
 player2=input()
+user1=input()
+user2=input()
 while 1:
- if (player1=='rock' or player2=='scissor') or (player1=='scissors' or player2=='paper') or (player1=='paper' or player2=='rock'):
-    print("player1 wins the game")
+ if (user1=='Rock' and user2=='Scissor') or (user1=='Scissors' and user2=='Paper') or (user1=='Paper' and user2=='Rock'):
+    print(player1,"win")
     break
- if (player1=='scissor' or player2=='rock') or (player1=='paper' or player2=='scissor') or (player1=='rock' or player2=='paper'):
-    print("player2 wins the game")
-    break
- if (player1=='scissor' or player2=='scissor') or (player1=='paper' or player2=='paper') or (player1=='rock' or player2=='rock'):
-    print("draws")
+ if (user1=='Scissor' and user2=='Rock') or (user1=='Paper' and user2=='Scissor') or (user1=='Rock' and user2=='Paper'):
+    print(player2,"win")
     break
