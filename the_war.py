@@ -7,3 +7,15 @@ for i in range(0,row):
         if (i+j)%2==0:
             c+=1
 print(c)
+
+
+def updateList(L):
+    L[-1] = input("Enter the item which you want to update:")
+    pass
+def addList(L):
+    L.append(input("enter the item which you want to add"))
+    print(L)
+
+lst = input().split(",")
+updateList(lst)
+addList(lst)
