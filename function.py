@@ -1,3 +1,9 @@
+#syntax of a function:
+'''def functionname( parameters ):
+"function_docstring"
+function_suite
+return [expression]'''
+
 # how to define a function:
 
 def add(a,b):
