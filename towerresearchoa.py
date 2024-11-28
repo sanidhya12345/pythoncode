@@ -1,5 +1,5 @@
 from math import gcd
-from collections import defaultdict,deque
+from collections import deque
 from functools import reduce
 
 def lcm(a,b):
