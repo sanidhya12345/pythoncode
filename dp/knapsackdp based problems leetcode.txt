@@ -1,0 +1,68 @@
+0/1 knapsack based problems:
+
+1.subset sum
+2.equal sum partition
+3.count of subset sum
+4.minimum subset sum diff
+5.target sum
+6.number of subsets with given diff
+
+Here’s a list of **medium-level LeetCode problems** that apply the **0/1 Knapsack dynamic programming technique**:
+
+---
+
+### 1. **Partition Equal Subset Sum**  
+   - **Problem:** [LeetCode 416](https://leetcode.com/problems/partition-equal-subset-sum/)  
+   - **Description:** Determine if the array can be partitioned into two subsets with equal sums.
+   - **Hint:** Convert it into a subset sum problem.
+
+---
+
+### 2. **Target Sum**  
+   - **Problem:** [LeetCode 494](https://leetcode.com/problems/target-sum/)  
+   - **Description:** Find the number of ways to assign + and - signs to elements of an array to make the sum equal to a target.
+   - **Hint:** Use subset-sum logic with dynamic programming.
+
+---
+
+### 3. **Coin Change II**  
+   - **Problem:** [LeetCode 518](https://leetcode.com/problems/coin-change-ii/)  
+   - **Description:** Count the number of ways to make up an amount with the given coin denominations.
+   - **Hint:** A variation of knapsack where order of coins doesn’t matter.
+
+---
+
+### 4. **Last Stone Weight II**  
+   - **Problem:** [LeetCode 1049](https://leetcode.com/problems/last-stone-weight-ii/)  
+   - **Description:** Minimize the difference between two subsets when smashing stones.
+   - **Hint:** Similar to subset-sum difference problems.
+
+---
+
+### 5. **Ones and Zeroes**  
+   - **Problem:** [LeetCode 474](https://leetcode.com/problems/ones-and-zeroes/)  
+   - **Description:** Maximize the number of strings from a list given a limit on 0s and 1s in the strings.
+   - **Hint:** Multidimensional knapsack problem.
+
+---
+
+### 6. **Combination Sum IV**  
+   - **Problem:** [LeetCode 377](https://leetcode.com/problems/combination-sum-iv/)  
+   - **Description:** Find the number of combinations that sum up to a target using a given array of numbers.
+   - **Hint:** Similar to unbounded knapsack.
+
+---
+
+### 7. **Subset Sum Problem (Custom Implementation)**  
+   - **Related Problem:** Solve the subset sum problem to practice the core of 0/1 knapsack:
+     - Given an array `nums` and a target `sum`, determine if any subset of the array can sum to the target.
+
+---
+
+### 8. **Knapsack Problem (Custom Implementation)**  
+   - **Custom Variation:** Practice solving the classical 0/1 knapsack problem:
+     - Given weights and values of items, and a weight capacity `W`, maximize the total value without exceeding the weight.
+
+---
+
+Would you like hints or solutions for any of these?
