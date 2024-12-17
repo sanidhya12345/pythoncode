@@ -1,6 +1,6 @@
 s=input()
 k=int(input())
-dp=[0 for i in range(len(s))]
+dp=[0 for i in range(len(s)+1)]
 dp[0]=1
 maxLen=0
 for i in range(1,len(s)):
