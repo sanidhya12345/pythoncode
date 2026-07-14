@@ -58,9 +58,5 @@ class Solution:
 
 
 
-        pass
-
-
-
 b=[1,2,3]        
 print(Solution.minOperations("",b))
