@@ -1,7 +1,7 @@
 def findWays(matrix, k):
     MOD = 10**9 + 7
     n = len(matrix)
-    m = len(matrix[0])  # Fix 1: Added [0]
+    m = len(matrix[0])  
 
     # we will create a 2D suffix matrix 
     # ones[i][j] will store the number of 1s from (i,j) to (n-1,m-1)
@@ -17,7 +17,7 @@ def findWays(matrix, k):
     
     # precompute the first valid cut index in O(n*m)
     next_r = [[n] * m for _ in range(n)]
-    next_c = [[m] * m for _ in range(n)]  # Fix 2: Changed *n to *m
+    next_c = [[m] * m for _ in range(n)]  
 
     for i in range(n - 1, -1, -1):
         for j in range(m - 1, -1, -1):
