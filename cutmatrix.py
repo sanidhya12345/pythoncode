@@ -64,7 +64,7 @@ def findWays(matrix, k):
                         
                     new_dp[i][j] = ans
                     
-        # State update (Also fixed indentation)
+        # State update 
         dp = new_dp
 
     return dp[0][0]
